@@ -15,7 +15,7 @@ const formarPrice = (p=> {
 })
 
 window
-    .fetch(url)
+    .fetch(`${urlBase}api/avo`)
     .then((response) => response.json())
     .then((responseJson => {
         const allItems = [];
